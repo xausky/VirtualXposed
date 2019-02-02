@@ -188,7 +188,7 @@ JNIEXPORT jint JNICALL JNI_OnLoad(JavaVM *vm, void *) {
         return -1;
     }
 
-    verifySignature(env);
+    //verifySignature(env);
 
     return initialize(vm, [] {
         nativeEngineClass = findClassStatic("com/lody/virtual/client/NativeEngine");
