@@ -2,12 +2,17 @@
 
 简介
 -----
-**VirtualXposed** 是基于[VirtualApp](https://github.com/asLody/VirtualApp) 和 [epic](https://github.com/tiann/epic) 在**非ROOT**环境下运行Xposed模块的实现（支持5.0~9.0)。
+**VirtualXposed** 是基于[VirtualApp](https://github.com/asLody/VirtualApp) 和 [epic](https://github.com/tiann/epic) 在**非ROOT**环境下运行Xposed模块的实现（支持5.0~10.0)。
 
 与 Xposed 相比，目前 VirtualXposed 有两个限制：
 
 1. 不支持修改系统（可以修改普通APP中对系统API的调用），因此重力工具箱，应用控制器等无法使用。
 2. 暂不支持资源HOOK，因此资源钩子不会起任何作用；使用资源HOOK的模块，相应的功能不会生效。
+
+
+警告
+-------
+本项目使用的 VirtualApp 不允许用于商业用途，并且其内部的 VirtualApp 版本已经过时，如果有这个需求，为了贵公司的长期稳定发展，请使用商业授权，联系 Lody (imlody@foxmail.com)即可。
 
 使用
 ----------
